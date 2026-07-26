@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Tech Escolar</title>
+    <link rel="stylesheet" href="css_js/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <h1>Blog de la Clase <span>471I</span></h1>
+
+        <p>Bienvenidos al blog tecnológico de la clase. Aquí compartimos proyectos, creatividad y actividades trimestrales desarrolladas durante el año escolar.</p>
+
+        <a href="#atividades" class="btn">Más información</a>
+      </div>
+    </header>
+
+    <section class="container" id="atividades">
+      <div class="section-title">
+        <h2>Miembros del<span> grupo</span></h2>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img src="imagens/imagem deniz.jpeg" alt="Deniz Gabriel" class="member-photo" />
+          <h3>Deniz Gabriel</h3>
+          <p>La experiencia contribuyó a su inteligencia. Tiene 22 años y vive en São Leopoldo.</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/WhatsApp Image 2026-05-15 at 09.46.54.jpeg" alt="Pedro Fagundes" class="member-photo" />
+          <h3>Pedro Fagundes</h3>
+          <p>El chico es muy guapo y tiene un gran talento para la programación y el desarrollo de proyectos tecnológicos. Tiene 18 años y vive en Estância Velha.</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/WhatsApp Image 2026-05-15 at 08.03.00.jpeg" alt="Gabriel de Ponte" class="member-photo" />
+          <h3>Gabriel de Ponte</h3>
+          <p>Recuerda, él es el de Ponte; Oliveira tiene dos. Tiene 18 años y vive en Estância Velha.</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/imagem matheo.jpeg" alt="Matheo Biller" class="member-photo" />
+          <h3>Matheo Biller</h3>
+          <p>Circulan rumores de que es hijo de Putin y que juega a ser artificiero. Tiene 17 años y vive en Portão.</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/imagem willian.jpeg" alt="Willian Horbach" class="member-photo" />
+          <h3>Willian Horbach</h3>
+          <p>El programador de IA más guapo del grupo. Tiene 18 años y vive en Portão.</p>
+        </div>
+      </div>
+
+      <div class="card music-card">
+        <h3>Música</h3>
+        <div class="music-player">
+          <div class="player-top">
+            <div class="track-meta">
+              <span class="track-name">Forjando Libertad</span>
+              <span class="track-details">Aztra • Autor</span>
+            </div>
+            <div class="player-actions">
+              <button id="player-start" class="skip-button">⏮</button>
+              <button id="player-play" class="play-button">►</button>
+              <button id="player-end" class="skip-button">⏭</button>
+              <div class="time-info">
+                <span id="player-current">00:00</span>
+                <span id="player-duration">00:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="progress-wrap">
+            <div id="player-progress" class="progress-bar"></div>
+          </div>
+          <div class="equalizer" id="player-eq">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <audio id="music-audio" preload="metadata">
+          <source src="musica de espanhol.mpeg" type="audio/mpeg" />
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+
+      <div class="card ecuador-card">
+        <h3>Trabajo del Ecuador</h3>
+        <p>Ecuador:</p>
+        <div class="ecuador-flag">
+          <img src="imagens/bandeira do ecuador.jpeg" alt="Bandera del Ecuador" />
+        </div>
+        <ul>
+          <li>Ubicación: noroeste de América del Sur, con gran diversidad ambiental y cultural.</li>
+          <li>Cultura: influencias andina, africana y española; idioma principal español y preservación del kichwa.</li>
+          <li>Festividades: Inti Raymi, Mama Negra y Diablada Pillaeña muestran la mezcla indígena y católica.</li>
+          <li>Gastronomía: platos típicos como ceviche, llapingachos, hornado y fanesca.</li>
+          <li>Historia: desde pueblos antiguos, expansión inca, conquista española e independencia en 1830.</li>
+        </ul>
+        <p>También encontramos información sobre población, economía y valores como el Sumak Kawsay, que destaca la armonía entre humanos y naturaleza.</p>
+        <a href="Apresentação de espanhol.pptx" class="download-link" download>Descargar presentación del Ecuador</a>
+      </div>
+
+      <div class="card timeline-card">
+        <h3>Gincana de Etep</h3>
+        <p>
+          Historia de la gincana en Etep de Portão RS: la gincana nació como una actividad escolar para promover integración, creatividad y espíritu colectivo entre los
+          alumnos. Con el tiempo se convirtió en un evento anual esperado por toda la comunidad escolar.
+        </p>
+        <div class="timeline-card-content">
+          <div class="timeline-list-wrapper">
+            <ul class="timeline-list">
+              <li class="timeline-item">
+                <strong>1ª Actividad: CHAVO DEL OCHO EN ETEP!</strong>
+                <span
+                  >Los alumnos participaron en una actividad temática inspirada en "Chaves". Se disfrazaron de personajes icónicos como Chiquinha y Chaves. El objetivo fue
+                  estimular la creatividad, la expresión corporal y la integración.</span
+                >
+              </li>
+              <li class="timeline-item">
+                <strong>2ª Actividad: PASTEL EN LA CARA!</strong>
+                <span
+                  >Un concurso individual (1 contra 1) de cultura general. Quien respondía incorrectamente recibía una "tortada" en el rostro del compañero que acertaba. La
+                  actividad promovió aprendizaje, interacción y diversión.</span
+                >
+              </li>
+              <li class="timeline-item">
+                <strong>3ª Actividad: GRENAL EN ETEP!</strong>
+                <span
+                  >Una jornada temática sobre el clásico Gre-Nal. La clase se dividió entre hinchas de Grêmio e Internacional. Los alumnos vistieron los colores de los
+                  equipos, participaron en juegos y se sacaron fotos.</span
+                >
+              </li>
+              <li class="timeline-item">
+                <strong>4ª Actividad: La elección del profesor padrino</strong>
+                <span
+                  >Reconocimiento del profesor Vagner Maciel Cunha como padrino de la clase, un momento especial que honra al maestro que acompañó al grupo durante esta etapa
+                  escolar, celebrando su dedicación e influencia positiva en la formación de los estudiantes.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-mosaic">
+            <img src="imagens/gincana 1.jpeg" alt="Gincana 1" />
+            <img src="imagens/gincana 2.jpeg" alt="Gincana 2" />
+            <img src="imagens/gincana 3.jpeg" alt="Gincana 3" />
+            <img src="imagens/gincana 4.jpeg" alt="Gincana 4" />
+            <img src="imagens/gincana 5.jpeg" alt="Gincana 5" />
+            <img src="imagens/gincana 6.jpeg" alt="Gincana 6" />
+          </div>
+        </div>
+        <p>El evento de la gincana refuerza el orgullo de Etep, estimula la participación de los estudiantes y celebra la tradición de la escuela en Portão RS.</p>
+      </div>
+
+      <div class="card characters-card" id="personagens">
+        <h3>Trabajo de los personajes</h3>
+
+        <div class="cards" style="margin-top: 20px">
+          <div class="card">
+            <img src="imagens/Johann Wolfeschlegelsteinhausenbergerdorff.jpeg" alt="Johann" class="member-photo character-photo" />
+            <h3>Johann <span class="nome-longo">Wolfeschlegelsteinhausenbergerdorff</span></h3>
+            <p>
+              El personaje de Deniz se llama Johann. Nació en Alemania y actualmente vive allí. Tiene 25 años y estudia Psicología. Le interesa comprender el miedo y su
+              influencia en el comportamiento humano. Su objetivo es descubrir por qué las personas reaccionan de manera diferente ante sus temores y cómo el miedo puede
+              influir en sus decisiones y emociones.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="imagens/Enkidu.jpeg" alt="Enkidu" class="member-photo character-photo" />
+            <h3>Enkidu</h3>
+            <p>
+              El personaje de Pedro se llama Enkidu. Es un poderoso guerrero que participa en intensos combates y demuestra una gran fuerza y resistencia. Su objetivo es
+              proteger a quienes considera importantes y enfrentarse a cualquier rival con valentía. Aunque parece serio y reservado, también muestra un fuerte sentido de
+              lealtad y justicia. Gracias a sus extraordinarias habilidades, destaca como uno de los luchadores más temidos y respetados del juego.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="imagens/Raze.jpg" alt="Raze" class="member-photo character-photo" />
+            <h3>Raze</h3>
+            <p>
+              El personaje de Gabriel se llama Raze. Su edad es desconocida. Vive en Brasil, en la ciudad de Salvador de Bahía, y convive con los demás agentes del Protocolo
+              VALORANT. Estudia ingeniería y le apasiona crear explosivos y desarrollar nuevas tecnologías para las misiones. Es una persona valiente, enérgica y muy segura de
+              sí misma. Su objetivo es utilizar sus inventos para proteger a su equipo y superar cualquier desafío que enfrente.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="imagens/Sugilite.jpeg" alt="Sugilite" class="member-photo character-photo" />
+            <h3>Sugilite</h3>
+            <p>
+              El personaje de Matheo se llama Sugilite. Es un Crystalsapien, el único natural de su especie, y existe una copia genética suya en el Omnitrix. Su edad es
+              desconocida. Es prácticamente inmortal, ya que incluso si muere puede volver a la vida. Vive en Petropia, un planeta formado por una enorme masa de cristal de
+              forma irregular, donde convive con los Petrosapiens, los Subsapiens y los Antrosapiens, a quienes protege como guardián del planeta. Estudia Defensa Planetaria,
+              Restauración de Ecosistemas, Gemología y Manipulación de Energía.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="imagens/Nabucodonosor.jpg" alt="Nabucodonosor" class="member-photo character-photo" />
+            <h3>Nabucodonosor II</h3>
+            <p>
+              El personaje de Willian se llama Nabucodonosor II. Vivió en Babilonia hace 2660 años, en Mesopotamia (actual Irak). Se relacionó con Nabopolasar, Shuadamqa, la
+              reina Amitis de Media y Amel-Marduk. Dedicó gran parte de su vida al estudio de las tácticas y estrategias militares, la administración política y la diplomacia,
+              así como la religión y los rituales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 • Blog Tech Escolar • Innovación y aprendizaje.</footer>
+    <script src="css_js/script.js"></script>
+  </body>
+</html>
