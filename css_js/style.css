@@ -248,13 +248,24 @@ header::before {
   order: 2;
 }
 
-.timeline-mosaic img {
+.timeline-mosaic img,
+.timeline-mosaic video {
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 14px;
   border: 1px solid #1e293b;
   box-shadow: 0 8px 24px rgba(0, 255, 255, 0.1);
+}
+
+/* Mosaic com item único - maior */
+.timeline-mosaic.single-item {
+  grid-template-columns: 1fr;
+}
+
+.timeline-mosaic.single-item img,
+.timeline-mosaic.single-item video {
+  height: 400px;
 }
 
 .timeline-list-wrapper {
